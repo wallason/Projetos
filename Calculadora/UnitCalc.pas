@@ -1,0 +1,95 @@
+unit UnitCalc;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Number1: TLabel;
+    Number2: TLabel;
+    Edt1: TEdit;
+    Edt2: TEdit;
+    Somar: TButton;
+    Subtrair: TButton;
+    Dividir: TButton;
+    Multiplicar: TButton;
+    Result: TPanel;
+    BtnLimpar: TButton;
+    procedure SomarClick(Sender: TObject);
+    procedure SubtrairClick(Sender: TObject);
+    procedure MultiplicarClick(Sender: TObject);
+    procedure DividirClick(Sender: TObject);
+    procedure BtnLimparClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.BtnLimparClick(Sender: TObject);
+
+begin
+  Edt1.Clear;
+  Edt2.Clear;
+  Result.Caption:='';
+
+
+end;
+
+procedure TForm1.DividirClick(Sender: TObject);
+var
+Numero1,Numero2,Dividir:real;
+begin
+Numero1:= strtofloat (Edt1.Text);
+Numero2:= strtofloat (Edt2.Text);
+Dividir:= (Numero1 / Numero2) ;
+Result.Caption:= floattostr (Dividir);
+
+end;
+
+procedure TForm1.MultiplicarClick(Sender: TObject);
+var
+Numero1,Numero2,Multiplicar:real;
+begin
+Numero1:= strtofloat (Edt1.Text);
+Numero2:= strtofloat (Edt2.Text);
+Multiplicar:= (Numero1 * Numero2) ;
+Result.Caption:=floattostr(Multiplicar);
+
+
+end;
+
+
+procedure TForm1.SomarClick(Sender: TObject);
+var
+Numero1,Numero2,Somar:real;
+begin
+Numero1:= strtofloat (Edt1.Text);
+Numero2:= strtofloat (Edt2.Text);
+Somar:= (Numero1 + Numero2) ;
+Result.Caption:=floattostr(Somar);
+
+end;
+
+procedure TForm1.SubtrairClick(Sender: TObject);
+var
+Numero1,Numero2,Subtrair:real;
+begin
+Numero1:= strtofloat (Edt1.Text);
+Numero2:= strtofloat (Edt2.Text);
+Subtrair:= (Numero1 - Numero2) ;
+Result.Caption:=floattostr(Subtrair);
+
+end;
+
+end.
