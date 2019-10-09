@@ -1,0 +1,99 @@
+﻿object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 280
+  ClientWidth = 747
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 112
+    Top = 8
+    Width = 379
+    Height = 33
+    Caption = 'Soma e produto dos valores'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object EdtN1: TEdit
+    Left = 112
+    Top = 80
+    Width = 81
+    Height = 21
+    TabOrder = 0
+    Text = 'EdtN1'
+  end
+  object EdtN2: TEdit
+    Left = 240
+    Top = 80
+    Width = 81
+    Height = 21
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object EdtN3: TEdit
+    Left = 368
+    Top = 80
+    Width = 81
+    Height = 21
+    TabOrder = 2
+    Text = 'Edit1'
+  end
+  object Soma: TPanel
+    Left = 112
+    Top = 160
+    Width = 113
+    Height = 65
+    Caption = 'Soma'
+    TabOrder = 3
+  end
+  object Produto: TPanel
+    Left = 344
+    Top = 160
+    Width = 105
+    Height = 65
+    Caption = 'Produto'
+    TabOrder = 4
+  end
+  object Soma123: TButton
+    Left = 152
+    Top = 121
+    Width = 99
+    Height = 25
+    Caption = 'Soma123'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = Soma123Click
+  end
+  object Multiplicação123: TButton
+    Left = 334
+    Top = 121
+    Width = 99
+    Height = 25
+    Caption = 'Multiplicar123'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 6
+    OnClick = Multiplicação123Click
+  end
+end
