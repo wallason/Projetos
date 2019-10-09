@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/06/29 18:16:46.000.116,=C:\Users\Wagner\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/08/31 23:38:36.000.650,=C:\Users\Wagner\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/08/31 23:39:42.000.263,C:\Users\Wagner\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\Aulas\Técnicas de Programação\Projetos\Cadastro\untPrincipal.dfm</Transaction>
+    <Transaction>2019/08/31 23:39:42.000.263,C:\Users\Wagner\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Aulas\Técnicas de Programação\Projetos\Cadastro\untPrincipal.pas</Transaction>
+    <Transaction>2019/08/31 23:39:48.000.782,C:\Users\Wagner\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Aulas\Técnicas de Programação\Projetos\Cadastro\Cadastro.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
