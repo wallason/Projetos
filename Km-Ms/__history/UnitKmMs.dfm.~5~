@@ -1,0 +1,133 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'Form1'
+  ClientHeight = 454
+  ClientWidth = 898
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ShpKm: TShape
+    Left = 152
+    Top = 96
+    Width = 273
+    Height = 209
+    Shape = stCircle
+  end
+  object Shape1: TShape
+    Left = 600
+    Top = 96
+    Width = 209
+    Height = 209
+    Shape = stCircle
+  end
+  object LabKm: TLabel
+    Left = 248
+    Top = 40
+    Width = 78
+    Height = 33
+    Caption = 'Km/h'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object LabMs: TLabel
+    Left = 672
+    Top = 40
+    Width = 54
+    Height = 33
+    Caption = 'M/s'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object EdtKm1: TEdit
+    Left = 208
+    Top = 136
+    Width = 161
+    Height = 21
+    TabOrder = 0
+    Text = 'EdtKm1'
+  end
+  object EdtMs1: TEdit
+    Left = 624
+    Top = 136
+    Width = 161
+    Height = 21
+    TabOrder = 1
+    Text = 'EdtMs1'
+  end
+  object BtnKm: TButton
+    Left = 440
+    Top = 136
+    Width = 129
+    Height = 43
+    Caption = '<='
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    OnClick = BtnKmClick
+  end
+  object BtnMs: TButton
+    Left = 440
+    Top = 185
+    Width = 129
+    Height = 41
+    Caption = '=>'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = BtnMsClick
+  end
+  object BtnLimpar: TButton
+    Left = 440
+    Top = 232
+    Width = 129
+    Height = 41
+    Caption = 'Limpar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object PnlMs: TPanel
+    Left = 624
+    Top = 163
+    Width = 161
+    Height = 102
+    Caption = 'M/s'
+    TabOrder = 5
+  end
+  object PnlKm: TPanel
+    Left = 208
+    Top = 163
+    Width = 161
+    Height = 102
+    Caption = 'Km/h'
+    TabOrder = 6
+  end
+end
