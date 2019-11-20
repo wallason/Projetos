@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/11/19 21:19:19.067,=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/19 21:19:36.495,C:\Users\Aluno\Downloads\Unitfinal2.dfm=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/11/19 21:19:36.495,C:\Users\Aluno\Downloads\Unitfinal2.pas=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/19 21:19:47.231,C:\Users\Aluno\Downloads\Projectfinal2.dproj=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/11/19 21:25:43.125,=G:\Wagner Delphi\Raciocinio Logico\Calculadora\UnitCalc.pas</Transaction>
+    <Transaction>2019/11/19 21:35:39.489,=C:\Users\Aluno\Downloads\Unit2.pas</Transaction>
+    <Transaction>2019/11/19 22:09:11.543,C:\Users\Aluno\Downloads\unitdata.dfm=C:\Users\Aluno\Downloads\Unit2.dfm</Transaction>
+    <Transaction>2019/11/19 22:09:11.543,C:\Users\Aluno\Downloads\unitdata.pas=C:\Users\Aluno\Downloads\Unit2.pas</Transaction>
+    <Transaction>2019/11/19 22:11:46.470,G:\Wagner Delphi\Raciocinio Logico\Calculadora\UnitCalc.pas=</Transaction>
+    <Transaction>2019/11/19 22:12:06.797,=C:\Users\Aluno\Downloads\UnitCalc.pas</Transaction>
+    <Transaction>2019/11/19 22:12:11.134,=C:\Users\Aluno\Downloads\UnitLadosTriangulo.pas</Transaction>
+    <Transaction>2019/11/19 22:13:25.591,=C:\Users\Aluno\Downloads\UnitTabuada.pas</Transaction>
+  </Transactions>
+</BorlandProject>
